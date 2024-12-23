@@ -38,3 +38,17 @@ aside {
   background-color: #dcdcdc; 
   height: 300px;           
 }
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column; /* Stack the article and aside vertically on smaller screens */
+  }
+
+  article {
+    flex: 1; /* Take up full width on small screens */
+  }
+
+  aside {
+    flex: 1; /* Take up full width on small screens */
+  }
+}
