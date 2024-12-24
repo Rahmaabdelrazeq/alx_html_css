@@ -1,0 +1,46 @@
+/* Basic styling for the webpage */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Source Sans Pro', sans-serif; /* Adjust this font later */
+    background-color: #f0f0f0; /* Example background color */
+    color: #333; /* Text color */
+}
+
+/* Styling for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header .logo {
+    width: 50px;
+    height: auto;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
